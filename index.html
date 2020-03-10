@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- CDN for Leaflet css -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" />
+	
+		
+
+		<!-- CDN for Leaflet javascript file -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js"></script>
+
+
+
+		<!-- CDN for mapbox api -->
+		<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.js'></script>
+		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.css' rel='stylesheet' />
+		
+		<!-- Leaflet MakiMarkers PlugIn -->
+		<!-- <script src="Leaflet.MakiMarkers.js"></script> -->
+		
+		<!-- load main css file -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+
+		<!-- load conrtol layers files -->
+		<link rel="stylesheet" href='leaflet.groupedlayercontrol.min.css'></link>
+		<script type='text/javascript' src='leaflet.groupedlayercontrol.min.js'></script>
+
+		<!-- load map layers files -->
+		<script src='ashdod roads.Geojson'></script>
+		<script src='ashdod_area.Geojson'></script>
+		<script src='ashdodPark.Geojson'></script>
+		<script src='roadsInParks.Geojson'></script>
+
+	</head>
+	
+	<body>
+		<!-- main div for map  -->
+		<div id="map">
+
+		</div>
+
+		<!-- load script file -->
+		<script src="scriptfile.js"></script>
+		
+
+	</body>
+<html>
